@@ -26,17 +26,6 @@ F 3 "" H 5350 5900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L oshw2018badgeprototype-rescue:ESP32-WROOM U1
-U 1 1 5B12CEBF
-P 1600 1750
-F 0 "U1" H 1750 2000 60  0000 R CNN
-F 1 "ESP32-WROOM" H 1750 1900 60  0000 R CNN
-F 2 "ESP32-footprints-Lib:ESP32-WROOM" H 1600 1750 60  0001 C CNN
-F 3 "" H 1600 1750 60  0001 C CNN
-	1    1600 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L oshw2018badgeprototype-rescue:52435-2471 X1
 U 1 1 5B12CF26
 P 9800 1850
@@ -102,7 +91,7 @@ U 1 1 5B12D62E
 P 9200 1950
 F 0 "C12" H 9225 2050 50  0000 L CNN
 F 1 "1uF" H 9225 1850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9238 1800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9238 1800 50  0001 C CNN
 F 3 "" H 9200 1950 50  0001 C CNN
 	1    9200 1950
 	0    1    1    0   
@@ -113,7 +102,7 @@ U 1 1 5B12D83D
 P 8800 3250
 F 0 "C8" H 8825 3350 50  0000 L CNN
 F 1 "1uF" H 8825 3150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8838 3100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8838 3100 50  0001 C CNN
 F 3 "" H 8800 3250 50  0001 C CNN
 	1    8800 3250
 	0    1    1    0   
@@ -128,7 +117,7 @@ U 1 1 5B12DA18
 P 8800 3450
 F 0 "C9" H 8825 3550 50  0000 L CNN
 F 1 "1uF" H 8825 3350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8838 3300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8838 3300 50  0001 C CNN
 F 3 "" H 8800 3450 50  0001 C CNN
 	1    8800 3450
 	0    1    1    0   
@@ -139,7 +128,7 @@ U 1 1 5B12DB15
 P 8800 3650
 F 0 "C10" H 8825 3750 50  0000 L CNN
 F 1 "1uF" H 8825 3550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8838 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8838 3500 50  0001 C CNN
 F 3 "" H 8800 3650 50  0001 C CNN
 	1    8800 3650
 	0    1    1    0   
@@ -150,7 +139,7 @@ U 1 1 5B12DC56
 P 8800 3850
 F 0 "C11" H 8825 3950 50  0000 L CNN
 F 1 "1uF" H 8825 3750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8838 3700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8838 3700 50  0001 C CNN
 F 3 "" H 8800 3850 50  0001 C CNN
 	1    8800 3850
 	0    1    1    0   
@@ -216,7 +205,7 @@ U 1 1 5B12E27D
 P 9300 5150
 F 0 "C13" H 9325 5250 50  0000 L CNN
 F 1 "1uF" H 9325 5050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9338 5000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9338 5000 50  0001 C CNN
 F 3 "" H 9300 5150 50  0001 C CNN
 	1    9300 5150
 	1    0    0    -1  
@@ -227,7 +216,7 @@ U 1 1 5B12E32C
 P 10050 5650
 F 0 "C14" H 10075 5750 50  0000 L CNN
 F 1 "2.2uF" H 10075 5550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 10088 5500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10088 5500 50  0001 C CNN
 F 3 "" H 10050 5650 50  0001 C CNN
 	1    10050 5650
 	1    0    0    -1  
@@ -238,7 +227,7 @@ U 1 1 5B12E361
 P 8750 4600
 F 0 "C7" H 8775 4700 50  0000 L CNN
 F 1 "1uF" H 8775 4500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8788 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8788 4450 50  0001 C CNN
 F 3 "" H 8750 4600 50  0001 C CNN
 	1    8750 4600
 	1    0    0    -1  
@@ -249,7 +238,7 @@ U 1 1 5B12E396
 P 8500 4350
 F 0 "C6" H 8525 4450 50  0000 L CNN
 F 1 "1uF" H 8525 4250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8538 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8538 4200 50  0001 C CNN
 F 3 "" H 8500 4350 50  0001 C CNN
 	1    8500 4350
 	0    1    1    0   
@@ -260,7 +249,7 @@ U 1 1 5B12E427
 P 9100 4850
 F 0 "D2" H 9100 4950 50  0000 C CNN
 F 1 "D_Schottky" H 9100 4750 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 9100 4850 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 9100 4850 50  0001 C CNN
 F 3 "" H 9100 4850 50  0001 C CNN
 	1    9100 4850
 	-1   0    0    1   
@@ -271,7 +260,7 @@ U 1 1 5B12E64F
 P 9700 4850
 F 0 "D3" H 9700 4950 50  0000 C CNN
 F 1 "D_Schottky" H 9700 4750 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 9700 4850 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 9700 4850 50  0001 C CNN
 F 3 "" H 9700 4850 50  0001 C CNN
 	1    9700 4850
 	-1   0    0    1   
@@ -282,7 +271,7 @@ U 1 1 5B12E682
 P 8900 5350
 F 0 "D1" H 8900 5450 50  0000 C CNN
 F 1 "D_Schottky" H 8900 5250 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 8900 5350 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 8900 5350 50  0001 C CNN
 F 3 "" H 8900 5350 50  0001 C CNN
 	1    8900 5350
 	1    0    0    -1  
@@ -293,7 +282,7 @@ U 1 1 5B12EA44
 P 9700 5350
 F 0 "L2" V 9650 5350 50  0000 C CNN
 F 1 "68uH" V 9775 5350 50  0000 C CNN
-F 2 "Inductors_SMD:L_1812" H 9700 5350 50  0001 C CNN
+F 2 "Inductor_SMD:L_1812_4532Metric" H 9700 5350 50  0001 C CNN
 F 3 "" H 9700 5350 50  0001 C CNN
 	1    9700 5350
 	0    -1   -1   0   
@@ -304,7 +293,7 @@ U 1 1 5B12EE8C
 P 8850 5950
 F 0 "R4" V 8930 5950 50  0000 C CNN
 F 1 "2.2R" V 8850 5950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8780 5950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 8780 5950 50  0001 C CNN
 F 3 "" H 8850 5950 50  0001 C CNN
 	1    8850 5950
 	0    1    1    0   
@@ -369,7 +358,7 @@ U 1 1 5B132257
 P 4500 5750
 F 0 "R2" V 4580 5750 50  0000 C CNN
 F 1 "DNP" V 4500 5750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4430 5750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 4430 5750 50  0001 C CNN
 F 3 "" H 4500 5750 50  0001 C CNN
 	1    4500 5750
 	0    1    1    0   
@@ -402,7 +391,7 @@ U 1 1 5B133489
 P 6100 5750
 F 0 "L1" V 6050 5750 50  0000 C CNN
 F 1 "L" V 6175 5750 50  0000 C CNN
-F 2 "Inductors_SMD:L_1812" H 6100 5750 50  0001 C CNN
+F 2 "Inductor_SMD:L_1812_4532Metric" H 6100 5750 50  0001 C CNN
 F 3 "" H 6100 5750 50  0001 C CNN
 	1    6100 5750
 	0    -1   -1   0   
@@ -413,7 +402,7 @@ U 1 1 5B133AA7
 P 6200 6200
 F 0 "C5" H 6225 6300 50  0000 L CNN
 F 1 "10uf" H 6225 6100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6238 6050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6238 6050 50  0001 C CNN
 F 3 "" H 6200 6200 50  0001 C CNN
 	1    6200 6200
 	1    0    0    -1  
@@ -424,7 +413,7 @@ U 1 1 5B133F7B
 P 4850 6200
 F 0 "C2" H 4875 6300 50  0000 L CNN
 F 1 "10uF" H 4875 6100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4888 6050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4888 6050 50  0001 C CNN
 F 3 "" H 4850 6200 50  0001 C CNN
 	1    4850 6200
 	1    0    0    -1  
@@ -465,16 +454,14 @@ $EndComp
 $Comp
 L oshw2018badgeprototype-rescue:+3V3 #PWR018
 U 1 1 5B13436E
-P 6350 5950
-F 0 "#PWR018" H 6350 5800 50  0001 C CNN
-F 1 "+3V3" H 6350 6090 50  0000 C CNN
-F 2 "" H 6350 5950 50  0001 C CNN
-F 3 "" H 6350 5950 50  0001 C CNN
-	1    6350 5950
+P 6450 6450
+F 0 "#PWR018" H 6450 6300 50  0001 C CNN
+F 1 "+3V3" H 6450 6590 50  0000 C CNN
+F 2 "" H 6450 6450 50  0001 C CNN
+F 3 "" H 6450 6450 50  0001 C CNN
+	1    6450 6450
 	0    1    1    0   
 $EndComp
-Text Notes 4100 4900 0    60   ~ 0
-Closing SW asserts EN powing system.\nESP then pulls DCDCEN high to keep system "on"\nESP can shut itself off by setting DCDCEN low.
 Text Notes 4000 4500 0    60   ~ 0
 Power Subsystem
 Text GLabel 4100 2950 2    60   Input ~ 0
@@ -525,7 +512,7 @@ U 1 1 5B13C082
 P 1500 1100
 F 0 "C1" H 1525 1200 50  0000 L CNN
 F 1 "10uF" H 1525 1000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1538 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1538 950 50  0001 C CNN
 F 3 "" H 1500 1100 50  0001 C CNN
 	1    1500 1100
 	1    0    0    -1  
@@ -591,7 +578,7 @@ U 1 1 5B13CD30
 P 4250 3200
 F 0 "R3" V 4330 3200 50  0000 C CNN
 F 1 "10K" V 4250 3200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4180 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 4180 3200 50  0001 C CNN
 F 3 "" H 4250 3200 50  0001 C CNN
 	1    4250 3200
 	0    1    1    0   
@@ -602,7 +589,7 @@ U 1 1 5B13CDA2
 P 1100 2100
 F 0 "R1" V 1180 2100 50  0000 C CNN
 F 1 "10KR" V 1100 2100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1030 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 1030 2100 50  0001 C CNN
 F 3 "" H 1100 2100 50  0001 C CNN
 	1    1100 2100
 	0    1    1    0   
@@ -635,7 +622,7 @@ U 1 1 5B14331B
 P 1250 1100
 F 0 "C4" H 1275 1200 50  0000 L CNN
 F 1 "1uF" H 1275 1000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1288 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1288 950 50  0001 C CNN
 F 3 "" H 1250 1100 50  0001 C CNN
 	1    1250 1100
 	1    0    0    -1  
@@ -668,7 +655,7 @@ U 1 1 5B14CDA1
 P 5650 3400
 F 0 "T1" H 5650 3670 50  0000 C CNN
 F 1 "TEST_1P" H 5700 3450 50  0001 C CNN
-F 2 "SMD_Packages:1Pin" H 5850 3400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 5850 3400 50  0001 C CNN
 F 3 "" H 5850 3400 50  0001 C CNN
 	1    5650 3400
 	0    -1   -1   0   
@@ -679,7 +666,7 @@ U 1 1 5B14CE8E
 P 5650 3500
 F 0 "T2" H 5650 3770 50  0000 C CNN
 F 1 "TEST_1P" H 5650 3700 50  0001 C CNN
-F 2 "SMD_Packages:1Pin" H 5850 3500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 5850 3500 50  0001 C CNN
 F 3 "" H 5850 3500 50  0001 C CNN
 	1    5650 3500
 	0    -1   -1   0   
@@ -690,7 +677,7 @@ U 1 1 5B14CF43
 P 5650 3700
 F 0 "T4" H 5650 3970 50  0000 C CNN
 F 1 "TEST_1P" H 5650 3900 50  0001 C CNN
-F 2 "SMD_Packages:1Pin" H 5850 3700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 5850 3700 50  0001 C CNN
 F 3 "" H 5850 3700 50  0001 C CNN
 	1    5650 3700
 	0    -1   -1   0   
@@ -701,7 +688,7 @@ U 1 1 5B14CFD2
 P 5650 3900
 F 0 "T5" H 5650 4170 50  0000 C CNN
 F 1 "TEST_1P" H 5650 4100 50  0001 C CNN
-F 2 "SMD_Packages:1Pin" H 5850 3900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 5850 3900 50  0001 C CNN
 F 3 "" H 5850 3900 50  0001 C CNN
 	1    5650 3900
 	0    -1   -1   0   
@@ -712,7 +699,7 @@ U 1 1 5B14D058
 P 5650 4000
 F 0 "T6" H 5650 4270 50  0000 C CNN
 F 1 "TEST_1P" H 5650 4200 50  0001 C CNN
-F 2 "SMD_Packages:1Pin" H 5850 4000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 5850 4000 50  0001 C CNN
 F 3 "" H 5850 4000 50  0001 C CNN
 	1    5650 4000
 	0    -1   -1   0   
@@ -723,15 +710,11 @@ U 1 1 5B14D0DD
 P 5650 3600
 F 0 "T3" H 5650 3870 50  0000 C CNN
 F 1 "TEST_1P" H 5650 3800 50  0001 C CNN
-F 2 "SMD_Packages:1Pin" H 5850 3600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 5850 3600 50  0001 C CNN
 F 3 "" H 5850 3600 50  0001 C CNN
 	1    5650 3600
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1350 2450 0    60   Input ~ 0
-T9
-Text GLabel 1350 2550 0    60   Input ~ 0
-T8
 Text GLabel 1350 2850 0    60   Input ~ 0
 T7
 Text GLabel 1350 2950 0    60   Input ~ 0
@@ -758,7 +741,7 @@ U 1 1 5B173F48
 P 6950 4800
 F 0 "R9" V 7030 4800 50  0000 C CNN
 F 1 "100k" V 6950 4800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6880 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 6880 4800 50  0001 C CNN
 F 3 "" H 6950 4800 50  0001 C CNN
 	1    6950 4800
 	-1   0    0    1   
@@ -771,17 +754,6 @@ Text GLabel 6650 5000 0    60   Input ~ 0
 BATSENSE
 Text GLabel 1350 2350 0    60   Input ~ 0
 BATSENSE
-$Comp
-L oshw2018badgeprototype-rescue:CP C15
-U 1 1 5B1792DA
-P 5950 6200
-F 0 "C15" H 5975 6300 50  0000 L CNN
-F 1 "220uF" H 5975 6100 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_6.3x5.7" H 5988 6050 50  0001 C CNN
-F 3 "" H 5950 6200 50  0001 C CNN
-	1    5950 6200
-	1    0    0    -1  
-$EndComp
 Text GLabel 3550 3950 2    60   Input ~ 0
 DCDCEN
 Text GLabel 4100 1950 2    60   Input ~ 0
@@ -831,32 +803,6 @@ Text GLabel 2700 6450 0    60   Input ~ 0
 INT
 Text Notes 2200 5650 0    60   ~ 0
 3 Axis Accelerometer\n
-$Comp
-L oshw2018badgeprototype-rescue:Conn_02x03_Top_Bottom J1
-U 1 1 5B18FD1B
-P 2450 900
-F 0 "J1" H 2500 1100 50  0000 C CNN
-F 1 "Conn_02x03_Top_Bottom" H 2500 700 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x03_Pitch2.54mm" H 2450 900 50  0001 C CNN
-F 3 "" H 2450 900 50  0001 C CNN
-	1    2450 900 
-	1    0    0    -1  
-$EndComp
-Text GLabel 2200 800  0    60   Input ~ 0
-TxD
-Text GLabel 2200 900  0    60   Input ~ 0
-RxD
-$Comp
-L oshw2018badgeprototype-rescue:GND #PWR033
-U 1 1 5B190CF7
-P 3000 1150
-F 0 "#PWR033" H 3000 900 50  0001 C CNN
-F 1 "GND" H 3000 1000 50  0000 C CNN
-F 2 "" H 3000 1150 50  0001 C CNN
-F 3 "" H 3000 1150 50  0001 C CNN
-	1    3000 1150
-	1    0    0    -1  
-$EndComp
 Text GLabel 900  3350 0    60   Input ~ 0
 SDA
 Text GLabel 900  3250 0    60   Input ~ 0
@@ -867,7 +813,7 @@ U 1 1 5B197677
 P 1200 3600
 F 0 "R12" V 1280 3600 50  0000 C CNN
 F 1 "2.2k" V 1200 3600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1130 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 1130 3600 50  0001 C CNN
 F 3 "" H 1200 3600 50  0001 C CNN
 	1    1200 3600
 	-1   0    0    -1  
@@ -878,7 +824,7 @@ U 1 1 5B197B52
 P 1400 3600
 F 0 "R13" V 1480 3600 50  0000 C CNN
 F 1 "2.2k" V 1400 3600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 1330 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 1330 3600 50  0001 C CNN
 F 3 "" H 1400 3600 50  0001 C CNN
 	1    1400 3600
 	-1   0    0    1   
@@ -933,7 +879,7 @@ U 1 1 5B1A8017
 P 9200 5650
 F 0 "Q2" H 9400 5700 50  0000 L CNN
 F 1 "Q_NMOS_GSD" H 9400 5600 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 9400 5750 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9400 5750 50  0001 C CNN
 F 3 "" H 9200 5650 50  0001 C CNN
 	1    9200 5650
 	1    0    0    -1  
@@ -944,7 +890,7 @@ U 1 1 5B1AB78E
 P 4250 6350
 F 0 "BT1" H 4350 6450 50  0000 L CNN
 F 1 "Battery_Cell" H 4350 6350 50  0000 L CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5019_Minature" V 4250 6410 50  0001 C CNN
+F 2 "12BH321P-GR:12BH321P-GR" V 4250 6410 50  0001 C CNN
 F 3 "" V 4250 6410 50  0001 C CNN
 	1    4250 6350
 	1    0    0    -1  
@@ -952,45 +898,12 @@ $EndComp
 Text GLabel 1350 2750 0    60   Input ~ 0
 LED_BAR_DOUT
 $Comp
-L oshw2018badgeprototype-rescue:CP C19
-U 1 1 5B1DF802
-P 6850 5800
-F 0 "C19" H 6875 5900 50  0000 L CNN
-F 1 "220uF" H 6875 5700 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_6.3x5.7" H 6888 5650 50  0001 C CNN
-F 3 "" H 6850 5800 50  0001 C CNN
-	1    6850 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L oshw2018badgeprototype-rescue:GND #PWR047
-U 1 1 5B1DF9F1
-P 6850 6100
-F 0 "#PWR047" H 6850 5850 50  0001 C CNN
-F 1 "GND" H 6850 5950 50  0000 C CNN
-F 2 "" H 6850 6100 50  0001 C CNN
-F 3 "" H 6850 6100 50  0001 C CNN
-	1    6850 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L oshw2018badgeprototype-rescue:+3V3 #PWR048
-U 1 1 5B1DF90B
-P 6850 5550
-F 0 "#PWR048" H 6850 5400 50  0001 C CNN
-F 1 "+3V3" H 6850 5690 50  0000 C CNN
-F 2 "" H 6850 5550 50  0001 C CNN
-F 3 "" H 6850 5550 50  0001 C CNN
-	1    6850 5550
-	1    0    0    -1  
-$EndComp
-$Comp
 L oshw2018badgeprototype-rescue:R R10
 U 1 1 5B3D833E
 P 9100 1500
 F 0 "R10" V 9180 1500 50  0000 C CNN
 F 1 "10K" V 9100 1500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 9030 1500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 9030 1500 50  0001 C CNN
 F 3 "" H 9100 1500 50  0001 C CNN
 	1    9100 1500
 	0    1    1    0   
@@ -1216,10 +1129,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 2950 1350 2950
 Wire Wire Line
-	1350 2450 1600 2450
-Wire Wire Line
-	1350 2550 1600 2550
-Wire Wire Line
 	1600 3050 1350 3050
 Wire Wire Line
 	5650 3400 5900 3400
@@ -1278,18 +1187,6 @@ Wire Wire Line
 	3300 4100 3550 4100
 Wire Wire Line
 	2950 6450 2700 6450
-Wire Wire Line
-	2750 900  3000 900 
-Wire Wire Line
-	3000 900  3000 1150
-Wire Wire Line
-	2800 800  2750 800 
-Wire Wire Line
-	2250 800  2200 800 
-Wire Wire Line
-	2250 900  2200 900 
-Wire Wire Line
-	2250 1000 2200 1000
 Wire Notes Line
 	2150 5550 3850 5550
 Wire Notes Line
@@ -1321,12 +1218,6 @@ Wire Wire Line
 	4250 6450 4250 6900
 Wire Notes Line
 	600  4300 4950 4300
-Wire Notes Line
-	4950 650  600  650 
-Wire Wire Line
-	6850 5550 6850 5650
-Wire Wire Line
-	6850 5950 6850 6100
 Wire Wire Line
 	6950 5000 6950 4950
 Wire Wire Line
@@ -1351,7 +1242,7 @@ U 1 1 5B3F77CC
 P 8450 1800
 F 0 "C16" H 8475 1900 50  0000 L CNN
 F 1 "1uF" H 8475 1700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8488 1650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8488 1650 50  0001 C CNN
 F 3 "" H 8450 1800 50  0001 C CNN
 	1    8450 1800
 	0    1    1    0   
@@ -1397,10 +1288,6 @@ F 3 "" H 2700 6050 50  0001 C CNN
 	1    2700 6050
 	0    1    1    0   
 $EndComp
-Text GLabel 2200 1000 0    60   Input ~ 0
-IO0
-Text GLabel 2800 800  2    60   Input ~ 0
-EN
 Wire Wire Line
 	9450 3050 9600 3050
 Wire Wire Line
@@ -1459,133 +1346,699 @@ Wire Notes Line
 	10750 6350 7800 6350
 Wire Notes Line
 	10750 650  8550 650 
-Text GLabel 1800 -350 0    60   Input ~ 0
-IO0
-Text GLabel 1800 -450 0    60   Input ~ 0
-RxD
-Text GLabel 1800 -550 0    60   Input ~ 0
-TxD
-Text GLabel 1800 -650 0    60   Input ~ 0
-EN
-$Comp
-L oshw2018badgeprototype-rescue:GND #PWR0101
-U 1 1 5B662290
-P 2650 -800
-F 0 "#PWR0101" H 2650 -1050 50  0001 C CNN
-F 1 "GND" H 2650 -950 50  0000 C CNN
-F 2 "" H 2650 -800 50  0001 C CNN
-F 3 "" H 2650 -800 50  0001 C CNN
-	1    2650 -800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L oshw2018badgeprototype-rescue:+3V3 #PWR0102
-U 1 1 5B6628B9
-P 2650 -1000
-F 0 "#PWR0102" H 2650 -1150 50  0001 C CNN
-F 1 "+3V3" H 2650 -860 50  0000 C CNN
-F 2 "" H 2650 -1000 50  0001 C CNN
-F 3 "" H 2650 -1000 50  0001 C CNN
-	1    2650 -1000
-	0    1    1    0   
-$EndComp
-Text GLabel 1800 -250 0    60   Input ~ 0
-BAT
 Wire Wire Line
 	6650 4500 6950 4500
 Wire Wire Line
-	6200 5950 6350 5950
-$Comp
-L Connector:TestPoint EN1
-U 1 1 5B67725A
-P 1850 -650
-F 0 "EN1" V 1850 -463 50  0000 L CNN
-F 1 "TestPoint" V 1895 -462 50  0001 L CNN
-F 2 "test_point:test_point" H 2050 -650 50  0001 C CNN
-F 3 "~" H 2050 -650 50  0001 C CNN
-	1    1850 -650
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TXD1
-U 1 1 5B6772FE
-P 1850 -550
-F 0 "TXD1" V 1850 -363 50  0000 L CNN
-F 1 "TestPoint" V 1895 -362 50  0001 L CNN
-F 2 "test_point:test_point" H 2050 -550 50  0001 C CNN
-F 3 "~" H 2050 -550 50  0001 C CNN
-	1    1850 -550
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint RXD1
-U 1 1 5B67737E
-P 1850 -450
-F 0 "RXD1" V 1850 -263 50  0000 L CNN
-F 1 "TestPoint" V 1895 -262 50  0001 L CNN
-F 2 "test_point:test_point" H 2050 -450 50  0001 C CNN
-F 3 "~" H 2050 -450 50  0001 C CNN
-	1    1850 -450
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint IO0
-U 1 1 5B677400
-P 1850 -350
-F 0 "IO0" V 1850 -163 50  0000 L CNN
-F 1 "TestPoint" V 1895 -162 50  0001 L CNN
-F 2 "test_point:test_point" H 2050 -350 50  0001 C CNN
-F 3 "~" H 2050 -350 50  0001 C CNN
-	1    1850 -350
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint BAT1
-U 1 1 5B677488
-P 1850 -250
-F 0 "BAT1" V 1850 -62 50  0000 L CNN
-F 1 "TestPoint" V 1895 -62 50  0001 L CNN
-F 2 "test_point:test_point" H 2050 -250 50  0001 C CNN
-F 3 "~" H 2050 -250 50  0001 C CNN
-	1    1850 -250
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint GND1
-U 1 1 5B677C91
-P 2600 -800
-F 0 "GND1" V 2703 -726 50  0000 C CNN
-F 1 "TestPoint" V 2645 -612 50  0001 L CNN
-F 2 "test_point:test_point" H 2800 -800 50  0001 C CNN
-F 3 "~" H 2800 -800 50  0001 C CNN
-	1    2600 -800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint 3V3
-U 1 1 5B677DC1
-P 2600 -1000
-F 0 "3V3" V 2703 -926 50  0000 C CNN
-F 1 "TestPoint" V 2645 -812 50  0001 L CNN
-F 2 "test_point:test_point" H 2800 -1000 50  0001 C CNN
-F 3 "~" H 2800 -1000 50  0001 C CNN
-	1    2600 -1000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1800 -650 1850 -650
-Wire Wire Line
-	1850 -550 1800 -550
-Wire Wire Line
-	1800 -450 1850 -450
-Wire Wire Line
-	1850 -350 1800 -350
-Wire Wire Line
-	1800 -250 1850 -250
-Wire Wire Line
-	2600 -1000 2650 -1000
-Wire Wire Line
-	2650 -800 2600 -800
-Wire Wire Line
 	4650 5750 5050 5750
+$Comp
+L Interface_USB:CH340G U5
+U 1 1 5D1782C3
+P 6950 1450
+F 0 "U5" H 6950 761 50  0000 C CNN
+F 1 "CH340G" H 6950 670 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7000 900 50  0001 L CNN
+F 3 "http://www.datasheet5.com/pdf-local-2195953" H 6600 2250 50  0001 C CNN
+	1    6950 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J2
+U 1 1 5D17A167
+P 5700 1350
+F 0 "J2" H 5757 1817 50  0000 C CNN
+F 1 "USB_B_Micro" H 5757 1726 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 5850 1300 50  0001 C CNN
+F 3 "~" H 5850 1300 50  0001 C CNN
+	1    5700 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1350 6000 1350
+Wire Wire Line
+	6000 1450 6550 1450
+$Comp
+L oshw2018badgeprototype-rescue:GND #PWR0101
+U 1 1 5D199420
+P 5700 1900
+F 0 "#PWR0101" H 5700 1650 50  0001 C CNN
+F 1 "GND" H 5700 1750 50  0000 C CNN
+F 2 "" H 5700 1900 50  0001 C CNN
+F 3 "" H 5700 1900 50  0001 C CNN
+	1    5700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:GND #PWR0102
+U 1 1 5D199D7F
+P 6950 2300
+F 0 "#PWR0102" H 6950 2050 50  0001 C CNN
+F 1 "GND" H 6950 2150 50  0000 C CNN
+F 2 "" H 6950 2300 50  0001 C CNN
+F 3 "" H 6950 2300 50  0001 C CNN
+	1    6950 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1750 5700 1800
+Wire Wire Line
+	5600 1750 5600 1800
+Wire Wire Line
+	5600 1800 5700 1800
+Connection ~ 5700 1800
+Wire Wire Line
+	5700 1800 5700 1900
+Wire Wire Line
+	6950 2050 6950 2300
+Text GLabel 7800 1050 2    60   Input ~ 0
+TxD
+Text GLabel 7800 1150 2    60   Input ~ 0
+RxD
+$Comp
+L Transistor_BJT:PN2222A Q1
+U 1 1 5D1C309B
+P 6300 2350
+F 0 "Q1" H 6490 2396 50  0000 L CNN
+F 1 "PN2222A" H 6490 2305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 2275 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 6300 2350 50  0001 L CNN
+	1    6300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:PN2222A Q3
+U 1 1 5D1C39F9
+P 6300 2900
+F 0 "Q3" H 6490 2854 50  0000 L CNN
+F 1 "PN2222A" H 6490 2945 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6500 2825 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 6300 2900 50  0001 L CNN
+	1    6300 2900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6400 3100 6650 3100
+Wire Wire Line
+	6400 2150 6650 2150
+Wire Wire Line
+	6400 2700 6400 2600
+Text GLabel 6650 2150 2    60   Input ~ 0
+IO0
+Text GLabel 6650 3100 2    60   Input ~ 0
+EN
+Text GLabel 5650 2350 0    50   Input ~ 0
+RTS
+Text GLabel 5650 2900 0    50   Input ~ 0
+DTR
+$Comp
+L oshw2018badgeprototype-rescue:R R5
+U 1 1 5D20EDD7
+P 5900 2350
+F 0 "R5" V 5980 2350 50  0000 C CNN
+F 1 "10K" V 5900 2350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 5830 2350 50  0001 C CNN
+F 3 "" H 5900 2350 50  0001 C CNN
+	1    5900 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:R R6
+U 1 1 5D20FA5F
+P 5900 2900
+F 0 "R6" V 5980 2900 50  0000 C CNN
+F 1 "10K" V 5900 2900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 5830 2900 50  0001 C CNN
+F 3 "" H 5900 2900 50  0001 C CNN
+	1    5900 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 2350 5750 2350
+Wire Wire Line
+	5650 2900 5700 2900
+Wire Wire Line
+	6100 2350 6050 2350
+Wire Wire Line
+	5750 2600 5750 2350
+Wire Wire Line
+	5750 2600 6400 2600
+Connection ~ 5750 2350
+Wire Wire Line
+	6400 2550 5700 2550
+Wire Wire Line
+	5700 2550 5700 2900
+Connection ~ 5700 2900
+Wire Wire Line
+	5700 2900 5750 2900
+Wire Wire Line
+	6100 2900 6050 2900
+Text GLabel 7350 1850 2    50   Input ~ 0
+RTS
+Text GLabel 7350 1750 2    50   Input ~ 0
+DTR
+$Comp
+L oshw2018badgeprototype-rescue:R R8
+U 1 1 5D2689FC
+P 7600 1050
+F 0 "R8" V 7500 1050 50  0000 C CNN
+F 1 "1k" V 7600 1050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 7530 1050 50  0001 C CNN
+F 3 "" H 7600 1050 50  0001 C CNN
+	1    7600 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:R R11
+U 1 1 5D2782E3
+P 7600 1150
+F 0 "R11" V 7680 1150 50  0000 C CNN
+F 1 "1k" V 7600 1150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 7530 1150 50  0001 C CNN
+F 3 "" H 7600 1150 50  0001 C CNN
+	1    7600 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7800 1050 7750 1050
+Wire Wire Line
+	7800 1150 7750 1150
+Wire Wire Line
+	7450 1050 7350 1050
+Wire Wire Line
+	7450 1150 7350 1150
+Wire Wire Line
+	6000 1150 6150 1150
+Wire Wire Line
+	6150 1150 6150 550 
+Wire Wire Line
+	6150 550  6350 550 
+Wire Wire Line
+	6950 550  6950 850 
+$Comp
+L oshw2018badgeprototype-rescue:C C18
+U 1 1 5D2C607A
+P 6350 750
+F 0 "C18" H 6375 850 50  0000 L CNN
+F 1 "1uF" H 6375 650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6388 600 50  0001 C CNN
+F 3 "" H 6350 750 50  0001 C CNN
+	1    6350 750 
+	-1   0    0    1   
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:C C20
+U 1 1 5D2C6F03
+P 6600 750
+F 0 "C20" H 6625 850 50  0000 L CNN
+F 1 "1uF" H 6625 650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6638 600 50  0001 C CNN
+F 3 "" H 6600 750 50  0001 C CNN
+	1    6600 750 
+	-1   0    0    1   
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:GND #PWR0103
+U 1 1 5D2C7210
+P 6350 950
+F 0 "#PWR0103" H 6350 700 50  0001 C CNN
+F 1 "GND" H 6350 800 50  0000 C CNN
+F 2 "" H 6350 950 50  0001 C CNN
+F 3 "" H 6350 950 50  0001 C CNN
+	1    6350 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 900  6350 900 
+Wire Wire Line
+	6350 900  6350 950 
+Connection ~ 6350 900 
+Wire Wire Line
+	6350 600  6350 550 
+Connection ~ 6350 550 
+Wire Wire Line
+	6350 550  6950 550 
+Wire Wire Line
+	6850 850  6850 600 
+Wire Wire Line
+	6850 600  6600 600 
+$Comp
+L oshw2018badgeprototype-rescue:D_Schottky D5
+U 1 1 5D309B90
+P 6450 6100
+F 0 "D5" H 6450 6200 50  0000 C CNN
+F 1 "D_Schottky" H 6450 6000 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6450 6100 50  0001 C CNN
+F 3 "" H 6450 6100 50  0001 C CNN
+	1    6450 6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 5950 6450 5950
+Wire Wire Line
+	6450 6250 6450 6450
+$Comp
+L Regulator_Linear:AP1117-33 U4
+U 1 1 5D3319CA
+P 4950 4850
+F 0 "U4" H 4950 5092 50  0000 C CNN
+F 1 "AP1117-33" H 4950 5001 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4950 5050 50  0001 C CNN
+F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 5050 4600 50  0001 C CNN
+	1    4950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:D_Schottky D4
+U 1 1 5D334FAD
+P 5700 4850
+F 0 "D4" H 5700 4950 50  0000 C CNN
+F 1 "D_Schottky" H 5700 4750 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5700 4850 50  0001 C CNN
+F 3 "" H 5700 4850 50  0001 C CNN
+	1    5700 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:+3V3 #PWR0104
+U 1 1 5D335ACE
+P 5950 4850
+F 0 "#PWR0104" H 5950 4700 50  0001 C CNN
+F 1 "+3V3" H 5950 4990 50  0000 C CNN
+F 2 "" H 5950 4850 50  0001 C CNN
+F 3 "" H 5950 4850 50  0001 C CNN
+	1    5950 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0105
+U 1 1 5D3369BA
+P 4200 4850
+F 0 "#PWR0105" H 4200 4700 50  0001 C CNN
+F 1 "+5V" V 4215 4978 50  0000 L CNN
+F 2 "" H 4200 4850 50  0001 C CNN
+F 3 "" H 4200 4850 50  0001 C CNN
+	1    4200 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 4850 4450 4850
+Wire Wire Line
+	4450 4900 4450 4850
+Connection ~ 4450 4850
+Wire Wire Line
+	4450 4850 4200 4850
+Wire Wire Line
+	5550 4850 5400 4850
+Wire Wire Line
+	5400 4900 5400 4850
+Connection ~ 5400 4850
+Wire Wire Line
+	5400 4850 5250 4850
+Wire Wire Line
+	5950 4850 5850 4850
+$Comp
+L oshw2018badgeprototype-rescue:GND #PWR0106
+U 1 1 5D38DC1E
+P 5400 5200
+F 0 "#PWR0106" H 5400 4950 50  0001 C CNN
+F 1 "GND" H 5400 5050 50  0000 C CNN
+F 2 "" H 5400 5200 50  0001 C CNN
+F 3 "" H 5400 5200 50  0001 C CNN
+	1    5400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:GND #PWR0107
+U 1 1 5D38DFDB
+P 4450 5200
+F 0 "#PWR0107" H 4450 4950 50  0001 C CNN
+F 1 "GND" H 4450 5050 50  0000 C CNN
+F 2 "" H 4450 5200 50  0001 C CNN
+F 3 "" H 4450 5200 50  0001 C CNN
+	1    4450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:R R7
+U 1 1 5D3A1B25
+P 6950 5150
+F 0 "R7" V 7030 5150 50  0000 C CNN
+F 1 "100k" V 6950 5150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 6880 5150 50  0001 C CNN
+F 3 "" H 6950 5150 50  0001 C CNN
+	1    6950 5150
+	-1   0    0    1   
+$EndComp
+Connection ~ 6950 5000
+$Comp
+L oshw2018badgeprototype-rescue:GND #PWR0110
+U 1 1 5D3A1F56
+P 6950 5300
+F 0 "#PWR0110" H 6950 5050 50  0001 C CNN
+F 1 "GND" H 6950 5150 50  0000 C CNN
+F 2 "" H 6950 5300 50  0001 C CNN
+F 3 "" H 6950 5300 50  0001 C CNN
+	1    6950 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 5950 6850 6100
+Wire Wire Line
+	6850 5550 6850 5650
+$Comp
+L oshw2018badgeprototype-rescue:+3V3 #PWR048
+U 1 1 5B1DF90B
+P 6850 5550
+F 0 "#PWR048" H 6850 5400 50  0001 C CNN
+F 1 "+3V3" H 6850 5690 50  0000 C CNN
+F 2 "" H 6850 5550 50  0001 C CNN
+F 3 "" H 6850 5550 50  0001 C CNN
+	1    6850 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:GND #PWR047
+U 1 1 5B1DF9F1
+P 6850 6100
+F 0 "#PWR047" H 6850 5850 50  0001 C CNN
+F 1 "GND" H 6850 5950 50  0000 C CNN
+F 2 "" H 6850 6100 50  0001 C CNN
+F 3 "" H 6850 6100 50  0001 C CNN
+	1    6850 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:CP C19
+U 1 1 5B1DF802
+P 6850 5800
+F 0 "C19" H 6875 5900 50  0000 L CNN
+F 1 "220uF" H 6875 5700 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 6888 5650 50  0001 C CNN
+F 3 "" H 6850 5800 50  0001 C CNN
+	1    6850 5800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4950 650  600  650 
+Wire Wire Line
+	2250 1000 2200 1000
+Wire Wire Line
+	2250 900  2200 900 
+Wire Wire Line
+	2250 800  2200 800 
+Wire Wire Line
+	2800 800  2750 800 
+Wire Wire Line
+	3000 900  3000 1150
+Wire Wire Line
+	2750 900  3000 900 
+$Comp
+L oshw2018badgeprototype-rescue:ESP32-WROOM U1
+U 1 1 5B12CEBF
+P 1600 1750
+F 0 "U1" H 1750 2000 60  0000 R CNN
+F 1 "ESP32-WROOM" H 1750 1900 60  0000 R CNN
+F 2 "ESP32-footprints-Lib:ESP32-WROOM" H 1600 1750 60  0001 C CNN
+F 3 "" H 1600 1750 60  0001 C CNN
+	1    1600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5D4D2EEA
+P 6950 550
+F 0 "#PWR0108" H 6950 400 50  0001 C CNN
+F 1 "+5V" V 6965 678 50  0000 L CNN
+F 2 "" H 6950 550 50  0001 C CNN
+F 3 "" H 6950 550 50  0001 C CNN
+	1    6950 550 
+	0    1    1    0   
+$EndComp
+Connection ~ 6950 550 
+$Comp
+L oshw2018badgeprototype-rescue:GND #PWR0109
+U 1 1 5D4D3AAC
+P 4950 5150
+F 0 "#PWR0109" H 4950 4900 50  0001 C CNN
+F 1 "GND" H 4950 5000 50  0000 C CNN
+F 2 "" H 4950 5150 50  0001 C CNN
+F 3 "" H 4950 5150 50  0001 C CNN
+	1    4950 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:C C17
+U 1 1 5D52A75F
+P 5400 5050
+F 0 "C17" H 5425 5150 50  0000 L CNN
+F 1 "10uF" H 5425 4950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 4900 50  0001 C CNN
+F 3 "" H 5400 5050 50  0001 C CNN
+	1    5400 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:C C3
+U 1 1 5D52B19C
+P 4450 5050
+F 0 "C3" H 4475 5150 50  0000 L CNN
+F 1 "10uF" H 4475 4950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4488 4900 50  0001 C CNN
+F 3 "" H 4450 5050 50  0001 C CNN
+	1    4450 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5D707B62
+P 13600 -450
+F 0 "J3" H 13680 -458 50  0000 L CNN
+F 1 "Conn_01x02" H 13680 -549 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 13600 -450 50  0001 C CNN
+F 3 "~" H 13600 -450 50  0001 C CNN
+	1    13600 -450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5D7082AC
+P 13600 -100
+F 0 "J4" H 13680 -108 50  0000 L CNN
+F 1 "Conn_01x02" H 13680 -199 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 13600 -100 50  0001 C CNN
+F 3 "~" H 13600 -100 50  0001 C CNN
+	1    13600 -100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5D70845B
+P 13600 250
+F 0 "J5" H 13680 242 50  0000 L CNN
+F 1 "Conn_01x02" H 13680 151 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 13600 250 50  0001 C CNN
+F 3 "~" H 13600 250 50  0001 C CNN
+	1    13600 250 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5D7088F4
+P 13600 -950
+F 0 "J1" H 13680 -958 50  0000 L CNN
+F 1 "Conn_01x04" H 13680 -1049 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 13600 -950 50  0001 C CNN
+F 3 "~" H 13600 -950 50  0001 C CNN
+	1    13600 -950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 5D709585
+P 14450 -950
+F 0 "J6" H 14530 -958 50  0000 L CNN
+F 1 "Conn_01x04" H 14530 -1049 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 14450 -950 50  0001 C CNN
+F 3 "~" H 14450 -950 50  0001 C CNN
+	1    14450 -950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5D709F7D
+P 14450 -450
+F 0 "J7" H 14530 -458 50  0000 L CNN
+F 1 "Conn_01x02" H 14530 -549 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 14450 -450 50  0001 C CNN
+F 3 "~" H 14450 -450 50  0001 C CNN
+	1    14450 -450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5D70A3A2
+P 14450 -100
+F 0 "J8" H 14530 -108 50  0000 L CNN
+F 1 "Conn_01x02" H 14530 -199 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 14450 -100 50  0001 C CNN
+F 3 "~" H 14450 -100 50  0001 C CNN
+	1    14450 -100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5D70A7F9
+P 14450 250
+F 0 "J9" H 14530 242 50  0000 L CNN
+F 1 "Conn_01x02" H 14530 151 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 14450 250 50  0001 C CNN
+F 3 "~" H 14450 250 50  0001 C CNN
+	1    14450 250 
+	1    0    0    -1  
+$EndComp
+Text GLabel 13400 -1050 0    60   Input ~ 0
+T7
+Text GLabel 13400 -950 0    60   Input ~ 0
+T6
+Text GLabel 13400 -850 0    60   Input ~ 0
+T5
+Text GLabel 13400 -750 0    60   Input ~ 0
+T4
+Text GLabel 14250 -1050 0    60   Input ~ 0
+T7
+Text GLabel 14250 -950 0    60   Input ~ 0
+T6
+Text GLabel 14250 -850 0    60   Input ~ 0
+T5
+Text GLabel 14250 -750 0    60   Input ~ 0
+T4
+$Comp
+L oshw2018badgeprototype-rescue:105162-0001 J10
+U 1 1 5D77D45B
+P 1800 4650
+F 0 "J10" H 2450 4915 50  0000 C CNN
+F 1 "105162-0001" H 2450 4824 50  0000 C CNN
+F 2 "105162-0001:105162-0001" H 2950 4750 50  0001 L CNN
+F 3 "" H 2950 4650 50  0001 L CNN
+F 4 "Memory Card Connectors 1.45H MICRO SD HEADER WITH D/C PIN" H 2950 4550 50  0001 L CNN "Description"
+F 5 "Molex" H 2950 4350 50  0001 L CNN "Manufacturer_Name"
+F 6 "105162-0001" H 2950 4250 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "105162-0001" H 2950 3950 50  0001 L CNN "Arrow Part Number"
+	1    1800 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 1700 4750 0    60   Input ~ 0
+EINK_MOSI
+Text GLabel 1700 4850 0    60   Input ~ 0
+EINK_SCLK
+Text GLabel 1700 4950 0    60   Input ~ 0
+MISO
+Text GLabel 3200 4650 2    60   Input ~ 0
+MMC_CS
+$Comp
+L oshw2018badgeprototype-rescue:+3V3 #PWR0111
+U 1 1 5D786499
+P 3550 4750
+F 0 "#PWR0111" H 3550 4600 50  0001 C CNN
+F 1 "+3V3" H 3550 4890 50  0000 C CNN
+F 2 "" H 3550 4750 50  0001 C CNN
+F 3 "" H 3550 4750 50  0001 C CNN
+	1    3550 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:GND #PWR0112
+U 1 1 5D786F36
+P 3400 4850
+F 0 "#PWR0112" H 3400 4600 50  0001 C CNN
+F 1 "GND" H 3400 4700 50  0000 C CNN
+F 2 "" H 3400 4850 50  0001 C CNN
+F 3 "" H 3400 4850 50  0001 C CNN
+	1    3400 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:GND #PWR0113
+U 1 1 5D7876DD
+P 3400 5150
+F 0 "#PWR0113" H 3400 4900 50  0001 C CNN
+F 1 "GND" H 3400 5000 50  0000 C CNN
+F 2 "" H 3400 5150 50  0001 C CNN
+F 3 "" H 3400 5150 50  0001 C CNN
+	1    3400 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:GND #PWR0114
+U 1 1 5D7878D3
+P 1600 5250
+F 0 "#PWR0114" H 1600 5000 50  0001 C CNN
+F 1 "GND" H 1600 5100 50  0000 C CNN
+F 2 "" H 1600 5250 50  0001 C CNN
+F 3 "" H 1600 5250 50  0001 C CNN
+	1    1600 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 5150 1700 5150
+Wire Wire Line
+	1700 5150 1700 5250
+Wire Wire Line
+	1700 5250 1600 5250
+Wire Wire Line
+	1800 5250 1700 5250
+Connection ~ 1700 5250
+Wire Wire Line
+	1700 4950 1800 4950
+Wire Wire Line
+	1700 4850 1800 4850
+Wire Wire Line
+	1700 4750 1800 4750
+Wire Wire Line
+	3200 4650 3100 4650
+Wire Wire Line
+	3550 4750 3100 4750
+Wire Wire Line
+	3400 4850 3100 4850
+Wire Wire Line
+	3100 5150 3250 5150
+Wire Wire Line
+	3100 5050 3250 5050
+Wire Wire Line
+	3250 5050 3250 5150
+Connection ~ 3250 5150
+Wire Wire Line
+	3250 5150 3400 5150
+$Comp
+L oshw2018badgeprototype-rescue:C C15
+U 1 1 5D83EED8
+P 750 4850
+F 0 "C15" H 775 4950 50  0000 L CNN
+F 1 "10uF" H 775 4750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 788 4700 50  0001 C CNN
+F 3 "" H 750 4850 50  0001 C CNN
+	1    750  4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:+3V3 #PWR0115
+U 1 1 5D83FA3C
+P 750 4700
+F 0 "#PWR0115" H 750 4550 50  0001 C CNN
+F 1 "+3V3" H 750 4840 50  0000 C CNN
+F 2 "" H 750 4700 50  0001 C CNN
+F 3 "" H 750 4700 50  0001 C CNN
+	1    750  4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L oshw2018badgeprototype-rescue:GND #PWR0116
+U 1 1 5D84007F
+P 750 5000
+F 0 "#PWR0116" H 750 4750 50  0001 C CNN
+F 1 "GND" H 750 4850 50  0000 C CNN
+F 2 "" H 750 5000 50  0001 C CNN
+F 3 "" H 750 5000 50  0001 C CNN
+	1    750  5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

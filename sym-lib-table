@@ -1,3 +1,12 @@
 (sym_lib_table
   (lib (name oshw2018badgeprototype-rescue)(type Legacy)(uri ${KIPRJMOD}/oshw2018badgeprototype-rescue.lib)(options "")(descr ""))
+  (lib (name codec)(type Legacy)(uri ${KIPRJMOD}/lib_sch/codec.lib)(options "")(descr ""))
+  (lib (name 52435-2471)(type Legacy)(uri ${KIPRJMOD}/lib_sch/52435-2471.lib)(options "")(descr ""))
+  (lib (name 105162-0001)(type Legacy)(uri ${KIPRJMOD}/lib_sch/105162-0001.lib)(options "")(descr ""))
+  (lib (name badgelife_shitty_connector)(type Legacy)(uri ${KIPRJMOD}/lib_sch/badgelife_shitty_connector.lib)(options "")(descr ""))
+  (lib (name espressif-xess)(type Legacy)(uri ${KIPRJMOD}/lib_sch/espressif-xess.lib)(options "")(descr ""))
+  (lib (name kx122-1037)(type Legacy)(uri ${KIPRJMOD}/lib_sch/kx122-1037.lib)(options "")(descr ""))
+  (lib (name si7006-a20)(type Legacy)(uri ${KIPRJMOD}/lib_sch/si7006-a20.lib)(options "")(descr ""))
+  (lib (name SK6812MINI_)(type Legacy)(uri "${KIPRJMOD}/lib_sch/SK6812MINI .lib")(options "")(descr ""))
+  (lib (name xc9141)(type Legacy)(uri ${KIPRJMOD}/lib_sch/xc9141.lib)(options "")(descr ""))
 )
