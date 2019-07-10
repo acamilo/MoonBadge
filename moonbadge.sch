@@ -1409,9 +1409,9 @@ Wire Wire Line
 	5700 1800 5700 1900
 Wire Wire Line
 	6950 2050 6950 2300
-Text GLabel 7800 1050 2    60   Input ~ 0
-TxD
 Text GLabel 7800 1150 2    60   Input ~ 0
+TxD
+Text GLabel 7800 1050 2    60   Input ~ 0
 RxD
 $Comp
 L Transistor_BJT:PN2222A Q1
